@@ -1,0 +1,29 @@
+{
+  "name": "export-excel",
+  "version": "1.0.0",
+  "description": "A simple node module for exporting data set to excel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shujo/export-excel.git"
+  },
+  "keywords": [
+    "excel",
+    "export2excel",
+    "json2excel"
+  ],
+  "author": "shujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shujo/export-excel/issues"
+  },
+  "homepage": "https://github.com/shujo/export-excel#readme",
+  "dependencies": {
+    "blob": "^0.1.0",
+    "exceljs": "^4.1.1",
+    "file-saver": "^2.0.2"
+  }
+}
