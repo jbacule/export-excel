@@ -1,5 +1,5 @@
 {
-  "name": "export-excel",
+  "name": "export-excel-js",
   "version": "1.0.0",
   "description": "A simple node module for exporting data set to excel.",
   "main": "index.js",

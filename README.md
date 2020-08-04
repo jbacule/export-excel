@@ -3,19 +3,19 @@ A simple node module for exporting data set to excel file or excel buffer.
 
 ## Install
 ```json
-    npm i export-excel --save 
+    npm i export-excel-js --save 
 ```
 
 ## Usage
 ```javascript
-    const { generateExcelFile, generateExcelBuffer } = require('export-excel')
+    const { generateExcelFile, generateExcelBuffer } = require('export-excel-js')
     //or
-    import { generateExcelFile, generateExcelBuffer } from 'export-excel'
+    import { generateExcelFile, generateExcelBuffer } from 'export-excel-js'
 ```
 
 ## Generate Excel File
 ```javascript
-    import { generateExcelFile } from 'export-excel'
+    import { generateExcelFile } from 'export-excel-js'
     
     (async() => {
         try{
@@ -40,7 +40,7 @@ A simple node module for exporting data set to excel file or excel buffer.
 
 ## Generate Excel Buffer
 ```javascript
-    import { generateExcelBuffer } from 'export-excel'
+    import { generateExcelBuffer } from 'export-excel-js'
     
     (async() => {
         try{
